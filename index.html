@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joris Bruinsma</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="profile">
+            <img src='img/profile.jpg' alt='profile' />
+        </div>
+        <div class="title-group">
+            <h1>Joris Bruinsma</h1>
+            <h2>Portfolio</h2>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <h1>I am a</h1>
+        <div class="about-container">
+            <div class="image-container" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+                <h2>Programmer</h2>
+                <img src="img/undraw_proud_coder_light.svg" alt="Proud Coder" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Problem Solver</h2>
+                <img src="img/undraw_feeling_proud_light.svg" alt="Problem Solving" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>Good Thinker</h2>
+                <img src="img/undraw_conceptual_idea_light.svg" alt="Good Thinker" id="image3">
+            </div>
+            <div class="image-container">
+                <h2>Team Player</h2>
+                <img src="img/undraw_team_spirit_light.svg" alt="Team Player" id="image4">
+            </div>   
+        </div>
+        <div class="text-box" id="text-box1">
+            <p>You've probably read it already, but my name is Joris Bruinsma. I am an electrical engineering student at the Amsterdam University of Applied Sciences. I enjoy spending my time outside. Outside you can find me camping or go to a fun camp. Exploring new places in the world is something I like. I am not a party animal, but I never say now to doing fun things with friends. I like technology and I can't learn enough about it. I also keep track of the latest technological developments.</p>
+        </div> 
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="carousel">
+            <div class="carousel-cell">your content here</div>
+            <div class="carousel-cell">your content here</div>
+            <div class="carousel-cell">your content here</div>
+            <div class="carousel-cell">your content here</div>
+        </div>
+        <div class="text-box" id="text-box2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, earum. Minus, animi est iste rerum rem, expedita sunt cumque dignissimos, voluptatum sapiente quod voluptate cupiditate sit aut quam sed tempora!</p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="social-icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
